@@ -1,0 +1,16 @@
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:56.0) Gecko/20100101 Firefox/56.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cookie: AMCV_7801965A577503E87F000101%40AdobeOrg=-1891778711%7CMCIDTS%7C17461%7CMCMID%7C82795861322954130211444334876940498125%7CMCAAMLH-1509155008%7C9%7CMCAAMB-1509155018%7Cz2FjbCKYe6dhnBm1Oz0E6RorKCef-U25uwOrm6PTnRp039I%7CMCCIDH%7C1019553171%7CMCOPTOUT-1508557408s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-17468%7CvVersion%7C2.4.0; _ga=GA1.1.1865699571.1508550213; s_dslv=1508550369161; s_getnewRepeat=1508550369185-New; com.silverpop.iMAWebCookie=9c3797c9-8468-5905-c204-aedcc516e021
+Connection: keep-alive
+
+
+
+
+-age=0
+
+ontrol: max-age=0
+
