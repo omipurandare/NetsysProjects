@@ -1,0 +1,22 @@
+Description-
+In this program a single client communicates with 4 distributed server. It divides the file and sends it to all 4 servers. This ensures that even if any server is down the client can put as well as get the files.
+Folder structure-
+PA-3_omkar_purandare-----|
+			 |-----servers(dfs.c,dfs.conf,Makefile)---|---dfs1(It contains all sub-folders and sub-files)
+			 |					  |---dfs2
+			 |					  |---dfs3
+			 |					  |---dfs4
+			 |
+			 |-----DFC1(various image.txt pdf files,dfc.c,Makefile)(User-1)
+			 |-----DFC2(various image.txt pdf files,dfc.c,Makefile)(User-2)
+
+Compiling code-
+Both the server and client folders have their makefiles, just run command "make" to get executables as "dfc" and "dfs"
+
+Running code-
+
+Server- 
+Give command "./dfs [port number]" on the command line to run that particular server, further no command can be given to server. It can be only be given commands via client. 
+
+Client-
+Give command "./dfc dfc.conf" on the command line to run the client. The conf file passes all the necessary details. We can further give following commands to client and the server reacts accordingly.
